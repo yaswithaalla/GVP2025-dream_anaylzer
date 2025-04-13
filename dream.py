@@ -6,7 +6,7 @@ nlp = spacy.load("en_core_web_sm")
 
 # Very basic dream symbol dictionary
 dream_dictionary = {
-  {
+  
   "snake": "represents hidden fears, transformation, or betrayal",
   "flying": "symbolizes freedom, ambition, or escape from limitations",
   "water": "often tied to emotions, the subconscious, or a cleansing process",
@@ -27,7 +27,7 @@ dream_dictionary = {
   "wedding": "can represent union, transition, or commitment",
   "stairs": "symbolize progress, growth, or personal development",
   "time": "often reflects pressure, fear of missing out, or urgency"
-}
+
 
     
 }
