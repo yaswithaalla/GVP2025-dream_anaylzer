@@ -6,13 +6,30 @@ nlp = spacy.load("en_core_web_sm")
 
 # Very basic dream symbol dictionary
 dream_dictionary = {
-    "flying": "You may be feeling liberated or escaping from something in life.",
-    "water": "Often relates to emotions, the unconscious mind, or cleansing.",
-    "whale": "Represents deep emotions or a significant emotional message.",
-    "falling": "Might reflect insecurity, instability, or fear of failure.",
-    "snake": "Symbol of transformation, danger, or hidden fears.",
-    "death": "Usually not literal — could mean endings or big life transitions.",
-    "ocean": "Represents deep emotion, vastness, or exploration of the unconscious."
+  {
+  "snake": "represents hidden fears, transformation, or betrayal",
+  "flying": "symbolizes freedom, ambition, or escape from limitations",
+  "water": "often tied to emotions, the subconscious, or a cleansing process",
+  "fire": "symbolizes passion, anger, destruction, or purification",
+  "teeth falling out": "linked to anxiety, loss, self-image, or fear of aging",
+  "falling": "represents insecurity, loss of control, or fear of failure",
+  "chasing": "often reflects avoidance, fear, or running from a problem",
+  "death": "symbolizes transformation, endings, or a new beginning",
+  "baby": "represents new beginnings, vulnerability, or responsibility",
+  "being naked in public": "relates to vulnerability, shame, or exposure",
+  "house": "represents the self or mind; rooms reflect different aspects of life",
+  "car": "symbolizes direction in life, control, or motivation",
+  "mirror": "reflects self-awareness, identity, or perception",
+  "spider": "can represent creativity, manipulation, or feeling trapped",
+  "school": "relates to learning, anxiety about performance, or past experiences",
+  "money": "symbolizes self-worth, success, or fear of loss",
+  "lost": "reflects confusion, lack of direction, or insecurity",
+  "wedding": "can represent union, transition, or commitment",
+  "stairs": "symbolize progress, growth, or personal development",
+  "time": "often reflects pressure, fear of missing out, or urgency"
+}
+
+    
 }
 
 # Streamlit UI
